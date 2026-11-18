@@ -1,6 +1,10 @@
-# Calculadora Web (Python Flask HTML e JavaScript)
+# Calculadora Web (Python, Flask, HTML e JavaScript)
 
-Este projeto é um exemplo didático de como usar **Python + Flask + HTML + JavaScript** para criar uma calculadora simples com páginas de **Soma** e **Subtração**.
+**Autor: Gabriel Mendes de Castro**
+
+Este projeto é um exemplo didático de como usar **Python + Flask + HTML + JavaScript** para criar uma calculadora simples com páginas de **Soma**, **Subtração**, **Multiplicação** e **Divisão**. Adaptado do [projeto original de Victor Thomaz](https://github.com/VictorThomaz/projeto_calculadora_js_nav).
+
+Cada operação tem sua própria página, acessível pelo menu superior. As funções matemáticas ficam em `operacoes.py`; as rotas em `app.py` recebem os valores enviados pelo JavaScript e devolvem o resultado em JSON. Na divisão, zero no divisor exibe uma mensagem de erro.
 
 ---
 
@@ -24,9 +28,11 @@ projeto_calculadora_web/
 ├── templates/          # Páginas HTML
 │   ├── index.html
 │   ├── soma.html
-│   └── subtracao.html
+│   ├── subtracao.html
+│   ├── multiplicacao.html
+│   └── divisao.html
 └── static/             # Arquivos estáticos
-└── script.js
+    └── script.js
 ```
 
 ---
@@ -36,13 +42,13 @@ projeto_calculadora_web/
 Instale o Git, abra um terminal na pasta onde deseja salvar o projeto e clone o repositório:
 
 ```powershell
-git clone https://github.com/usuario/nome-do-repositorio.git
+git clone https://github.com/Pudimmagnata/calculadora-flask-gabriel-mendes-de-castro.git
 ```
 
-Substitua o endereço de exemplo pela URL do repositório deste projeto. Em seguida, acesse a pasta criada pelo Git:
+Em seguida, acesse a pasta criada pelo Git:
 
 ```powershell
-cd nome-do-repositorio
+cd calculadora-flask-gabriel-mendes-de-castro
 ```
 
 ## Criando e ativando o ambiente virtual no Windows
