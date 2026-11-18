@@ -42,13 +42,13 @@ projeto_calculadora_web/
 Instale o Git, abra um terminal na pasta onde deseja salvar o projeto e clone o repositório:
 
 ```powershell
-git clone https://github.com/usuario/nome-do-repositorio.git
+git clone https://github.com/Pudimmagnata/calculadora-flask-gabriel-mendes-de-castro.git
 ```
 
-Substitua o endereço de exemplo pela URL do repositório deste projeto. Em seguida, acesse a pasta criada pelo Git:
+Em seguida, acesse a pasta criada pelo Git:
 
 ```powershell
-cd nome-do-repositorio
+cd calculadora-flask-gabriel-mendes-de-castro
 ```
 
 ## Criando e ativando o ambiente virtual no Windows
